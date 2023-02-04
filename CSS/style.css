@@ -137,7 +137,11 @@ body {
 .hero {
   color: var(--hero-txt-cl);
   background-color: var(--primary-bg-cl);
-  background-image: url(../images/herobackground/hero-background-img.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/herobackground/hero-background-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1440px;
@@ -208,6 +212,11 @@ body {
 .features-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.features-icon {
+  background: #f4f4fd;
+  border-radius: 4px;
+  margin: 24px 102px;
+}
 
 /* What are we doing section */
 
@@ -245,6 +254,9 @@ body {
   gap: 24px;
   padding-left: 0;
 }
+.txt-team {
+  margin-bottom: 8px;
+}
 .div-team {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -252,7 +264,48 @@ body {
 ul {
   list-style: none;
 }
-
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--button-bg-cl);
+  border-radius: 50%;
+}
+.socials-link:hover,
+focus {
+  background-color: var(--hover-button-cl);
+}
+.socials-icon {
+  fill: var(--secondary-bg-cl);
+}
+/* Customers */
+.customers {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-items {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 168px;
+  height: 88px;
+}
+.customers-svg {
+  margin: 16px 32px;
+}
 /* FOOTER */
 
 .footer {
