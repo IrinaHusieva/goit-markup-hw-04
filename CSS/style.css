@@ -213,9 +213,20 @@ body {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .features-icon {
+  margin: 24px 102px;
+}
+.svg-fetures-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.fetures-items-svg {
   background: #f4f4fd;
   border-radius: 4px;
-  margin: 24px 102px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
 }
 
 /* What are we doing section */
@@ -302,6 +313,10 @@ focus {
   border-radius: 4px;
   width: 168px;
   height: 88px;
+}
+.customers-items:hover,
+:focus {
+  background-color: var(--hover-button-cl);
 }
 .customers-svg {
   margin: 16px 32px;
