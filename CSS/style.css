@@ -48,6 +48,8 @@ section {
   --team-bg-cl: #ffffff;
   --button-bg-cl: #4d5ae5;
   --active-txt-cl: #404bbf;
+  --icon-cl: #afb1b8;
+
   /* TXT COLORS */
   --primary-txt-cl: #2e2f42;
   --secondary-txt-cl: #434455;
@@ -316,10 +318,10 @@ focus {
 }
 .customers-items:hover,
 :focus {
-  background-color: var(--hover-button-cl);
 }
 .customers-svg {
   margin: 16px 32px;
+  fill: var(--icon-cl);
 }
 /* FOOTER */
 
