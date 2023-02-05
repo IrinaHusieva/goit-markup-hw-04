@@ -318,6 +318,7 @@ focus {
 }
 .customers-items:hover,
 :focus {
+  background-color: var(--active-txt-cl);
 }
 .customers-svg {
   margin: 16px 32px;
