@@ -349,6 +349,25 @@ focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.social-media {
+  align-items: baseline;
+}
+.socials-item-footer {
+}
+.socials-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.socials-link-footer:hover,
+focus {
+  background-color: #31d0aa;
+}
+
 /* PORTFOLIO */
 
 .portfolio-btn {
